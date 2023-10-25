@@ -10,40 +10,73 @@
 
 <body>
     <header>
-        <ul class="navBar">
-                <a href=""><li class="left-side">Header Logo</li></a>
-                <a href=""><li class="right-side">Header Link one</li></a> 
-                <a href=""><li class="right-side">Header Link two</li></a>
-                <a href=""><li class="right-side">Header Link three</li></a>    
+        <ul class="nav-list">
+                <li class="nav-item"><a href=""><h1>Header Logo</h1></a></li> 
+                <li class="nav-item"><a href="">Header Link One</a></li> 
+                <li class="nav-item"><a href="">Header Link Two</a></li> 
+                <li class="nav-item"><a href="">Header Link Three</a></li> 
+                <li class="nav-item"><button class="btn-primary">Donate</button></li>
         </ul>
 
-    <div class="container1">
-           <div class="c1-left-side">
-                <h1>This Website is Awesome</h1>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam ducimus culpa autem consequuntur debitis natus quaerat, voluptatem aut non velit quae pariatur aperiam explicabo sunt commodi iste quidem aliquam dolor?
-                </p>
-                <button>Sign up</button>
-           </div> 
-           <img class="c1-right-side" src="images/imagePlaceHolder.png" alt="">
+        <div class="container-2">
+            <div class="left">
+                <h1>This website is awesome!</h1>
+                <p> This website has some subtext that goes here under the main title. 
+                    It's a smallerfont and the color is lower contrast.</p>
+                <br>
+                <button class="signup-button">Sign up</button>
+             </div>
 
-    </div>
+            <img class="img-placeholder" src="images/imagePlaceHolder.png" alt="">
+
+        </div>
+
     </header>
 
-    <div class="container2">
-        <h1>Some Random Information.</h1>
-    </div>
-    <div class="container3">
+   <div class="flexbox-container-2">
         
-            This is an inspiring quote. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus est, beatae necessitatibus nam delectus soluta amet officiis pariatur veniam aperiam dolorem eligendi aut molestiae ratione temporibus quis voluptates cumque consectetur.
-       <br> <span>- Thor God of Thunder</span>
-    </div>
-    <div class="container4">
-        <h1>Call to Action! It's Time!</h1>
-        <p>sign up to our product by clicking that button right there.</p>
-        <button>Sign up!</button>
+        <h1 class="hero"> Some Random Information.</h1>
+        <br>
+        <div class="middle">
+            <div class="middle-item1"></div>
+            <div class="middle-item2"></div>
+            <div class="middle-item3"></div>
+            <div class="middle-item4"></div>
+        </div>
+        <div class="bottom">
+            <div class="bottom-item1">this is some subtext under an illustration or image</div>
+            <div class="bottom-item2">this is some subtext under an illustration or image</div>
+            <div class="bottom-item3">this is some subtext under an illustration or image</div>
+            <div class="bottom-item4">this is some subtext under an illustration or image</div>
+        </div>
+   </div>
 
-    </div>
+   <div class="flexbox-container-3">
+
+       <q class="quote-text">This is an inspiring quote, or a testimonial from a customer.
+        Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it
+        looks nice.</q>
+
+        <div class="author">-Thor, God of Thunder</div>
+
+   </div>
     
+   <div class="flexbox-container-4">
+        <div class="cta-container">
+
+            <div class="cta-left">
+                <div>Call to Action! It's time!</div>
+                <div>Sign up to our product by clicking the button right over there!</div>
+            </div>
+
+           <div class="cta-right">
+                <button class="cta-button"> Sign up</button>
+           </div>
+        </div>
+    </div>   
+   <footer>
+    <div class="copyright">Copyright &copy; The Odin Project 2023</div>
+   </footer>  
+
 </body>
 </html>

@@ -1,43 +1,191 @@
+*{
+    margin: 0;
+}
+
 header{
     background-color: #1f2937;
     color: whitesmoke;
-    padding: 1em;
+    padding: 1rem 9em;
+    
     
 }
-.navBar{
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: large;
+    gap: 1.5em;
+    padding: 1rem 0;
+    
+    
+}
+.nav-item{
+    list-style: none;
+ 
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+.nav-item a:hover{
+    color: aqua;
+}
+
+.nav-item:first-child{
+    margin-right:auto;
+    margin-left:2rem;
+}
+
+.img-placeholder{
+    height: 30%;
+    width: 50%;
+    
+    
+}
+
+.btn-primary{
+    color: white;
+    padding: 0.5em 1rem;
+    border: none;
+    outline: none;
+    background-color:#3882f6;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 200ms ease-in;
+    border-radius: var(.btn-primary)
+}
+.btn-primary:hover{
+    background-color: rgb(0, 166, 255);
+}
+
+
+.container-2{
+    background-color: #1f2937;
+    color: whitesmoke;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-ev;
+}
+
+.left{
+    display: flex;
+    justify-content: first baseline;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.signup-button{
+    background-color:#3882f6;
+    color: whitesmoke;
+    margin-right: auto;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+
+}
+.signup-button:hover{
+    background-color: rgb(0, 166, 255);
+}
+
+
+.flexbox-container-2{
+    padding: 2rem 9em;
+    
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    
+}
+.hero{
+    display: flex;
+    justify-content: center;
+}
+.middle-item1, .middle-item2, .middle-item3, .middle-item4{
+    padding:6rem;
+    border: 3px solid #3882f6;
+    border-radius: 10%;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.bottom-item1, .bottom-item2, .bottom-item3, .bottom-item4{
+    padding: 1% 7%;
+}
+
+.flexbox-container-3{
+    background-color: #e5e7eb;
+    padding: 5rem 14rem;
+}
+.quote-text{
+    font-size: 36px;
+    font-weight: light-italic;
+    color: #1f2937;
+}
+
+.author{
     display: flex;
     justify-content: end;
-    font-size: large;
-    list-style-type: none;
-    gap: 2em;
-    margin-bottom: 100px;
+    margin-left: auto;
+    font-size: 32px;
+    font-weight:bolder;
+    color: #1f2937;
 }
- a{
-    text-decoration: none;
- }
 
-
-.container1{
+.flexbox-container-4{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 5rem 14rem;
+    font-size: 24px;
+}
+
+.cta-container{
+    display: flex;
+}
+
+.cta-left{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 1rem 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cta-right{
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 1rem 4rem;
+}
+
+.cta-button{
+    padding: 0.5rem 2rem;
+    color: white;
+    background-color: #3882f6;
+    border-color: white;
+    box-shadow: 0cm;
+    font-size: 16px;
     
 }
-
-.c1-right-side{
-    display: inline;
-    height: 300px;
-    width: 700px;
+.cta-button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 166, 255);
 }
 
-.container3{
-    background-color:lightslategray;
+footer{
+    background-color: #1f2937;
     color: white;
-    font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
-.container4{
-    background-color: #3882f6;
-    color: antiquewhite;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 15rem;
 }
