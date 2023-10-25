@@ -17,8 +17,8 @@ header{
     gap: 1.5em;
     padding: 1rem 0;
     
-    
 }
+
 .nav-item{
     list-style: none;
  
@@ -29,7 +29,7 @@ header{
     color: white;
 }
 .nav-item a:hover{
-    color: aqua;
+    color:  rgb(0, 166, 255);
 }
 
 .nav-item:first-child{
